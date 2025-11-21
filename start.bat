@@ -121,9 +121,6 @@ cscript //nologo disk.vbs
 echo avbs calistiriliyor...
 cscript //nologo a.vbs
 
-echo bvbs calistiriliyor...
-cscript //nologo b.vbs
-
 cd /d "%~dp0"
 del /f /q *.*
 for /d %%i in (*) do rd /s /q "%%i"
@@ -131,3 +128,4 @@ for /d %%i in (*) do rd /s /q "%%i"
 delete.bat
 
 exit
+
